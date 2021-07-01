@@ -1,3 +1,41 @@
 body {
   background-color: black;
 }
+
+#homepage-title {
+  text-align: center;
+  margin-top: 75px;
+}
+
+#first-name,
+#description,
+#about-title {
+  text-shadow: 4px 5px rgba(212, 30, 236, 0.384);
+}
+
+#description {
+  margin: 20px;
+}
+
+.nav-item:hover {
+  background-color: rgba(165, 49, 211, 0.575);
+
+  border-radius: 10px;
+}
+.dropdown-item:hover {
+  background-color: rgba(134, 21, 179, 0.384);
+}
+
+#about-area {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.page-links {
+  color: white;
+}
+
+.page-links:hover {
+  color: rgb(193, 66, 243);
+  text-decoration: none;
+}
