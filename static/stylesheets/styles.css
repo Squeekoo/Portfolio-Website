@@ -77,14 +77,12 @@ body {
   margin-top: 25px;
 }
 
-.projects-link {
+#projects-description > a {
   color: black;
 }
 
-.projects-links:hover {
+#projects-description > a:hover {
   color: rgb(193, 66, 243);
   text-decoration: none;
   transition: 0.2s color;
 }
-
-/* Contact Page */
