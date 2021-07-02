@@ -77,11 +77,11 @@ body {
   margin-top: 25px;
 }
 
-#projects-div > a {
+#projects-div > .card > .card-body > .card-text > a {
   color: black;
 }
 
-#projects-div > a:hover {
+#projects-div > .card > .card-body > .card-text > a:hover {
   color: rgb(193, 66, 243);
   text-decoration: none;
   transition: 0.2s color;
