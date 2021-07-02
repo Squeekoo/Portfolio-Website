@@ -10,7 +10,10 @@
 
 
 ## Features
-- My Portfolio includes a Homepage and a Navbar that leads you to four different sections:
+- My Portfolio includes a Homepage with "Quick Links" at the bottom of the page:
+  - This feature gives easier access to my currently deployed Project Websites
+  - Displays Projects in-progress
+- My Portfolio also has a Navbar that leads you to four different sections:
   - About
   - Projects
   - Contact
@@ -24,6 +27,8 @@
 ## Standard Flow
 
 - Website is open to the public, so anyone and everyone has access to my Portfolio.
+- Right at the bottom of the Homepage, the Visitor can easily click on a link that sends them to any of my currently deployed websites.
+  - The Visitor may also see Projects I am currently working on.
 - Visitor may click on "eldondelacruzjr" at the top-left to return to the Homepage at anytime.
 - Clicking on any link (except for "Socials") in the Navbar will direct you to its perspective page.
 - The "Socials" link is a dropdown menu containing links to four of my different social media accounts.

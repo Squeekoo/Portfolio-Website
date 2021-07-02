@@ -28,8 +28,7 @@ body {
 }
 
 #profile-picture > img {
-  display: inline-block;
-  margin: 45px;
+  margin: 40px;
   border-radius: 100px;
   height: 320px;
   border: 0.5px solid white;
@@ -70,8 +69,12 @@ body {
   transition: 0.5s background-color;
 }
 
-div.row {
+#projects-div {
   margin-top: 25px;
+}
+
+#project-cards {
+  margin-top: 20px;
 }
 
 /* Contact Page */
