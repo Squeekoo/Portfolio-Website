@@ -77,4 +77,14 @@ body {
   margin-top: 20px;
 }
 
+#projects-link {
+  color: black;
+}
+
+.projects-links:hover {
+  color: rgb(193, 66, 243);
+  text-decoration: none;
+  transition: 0.2s color;
+}
+
 /* Contact Page */
