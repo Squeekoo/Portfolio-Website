@@ -1,36 +1,52 @@
+/* General Styling & Home Page*/
 body {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.808);
 }
 
 #homepage-title {
   text-align: center;
-  margin-top: 75px;
+  margin-top: 30px;
 }
 
 #first-name,
 #description,
-#about-title {
+#about-title,
+#projects-title,
+#contact-title {
   text-shadow: 4px 5px rgba(212, 30, 236, 0.384);
+}
+
+#about-area,
+#projects-area,
+#contact-area {
+  text-align: center;
+  margin-top: 10px;
 }
 
 #description {
   margin: 20px;
 }
 
-.nav-item:hover {
-  background-color: rgba(165, 49, 211, 0.575);
+#profile-picture > img {
+  display: inline-block;
+  margin: 45px;
+  border-radius: 100px;
+  height: 320px;
+  border: 0.5px solid white;
+}
 
-  border-radius: 10px;
+/* Navbar */
+.nav-item:hover {
+  box-sizing: border-box;
+  background-color: rgba(165, 49, 211, 0.575);
+  border-radius: 5px;
+  transition: 0.6s background-color;
 }
 .dropdown-item:hover {
   background-color: rgba(134, 21, 179, 0.384);
 }
 
-#about-area {
-  text-align: center;
-  margin-top: 10px;
-}
-
+/* About Page */
 .page-links {
   color: white;
 }
@@ -38,4 +54,24 @@ body {
 .page-links:hover {
   color: rgb(193, 66, 243);
   text-decoration: none;
+  transition: 0.2s color;
 }
+
+/* Projects Page */
+.page-btns {
+  color: white;
+  background-color: black;
+  outline: none;
+}
+.page-btns:hover {
+  color: black;
+  background-color: rgba(165, 49, 211, 0.575);
+  outline: none;
+  transition: 0.5s background-color;
+}
+
+div.row {
+  margin-top: 25px;
+}
+
+/* Contact Page */

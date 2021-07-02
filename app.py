@@ -17,3 +17,17 @@ def about():
     """ About Page """
 
     return render_template("about.html")
+
+
+@app.route("/projects")
+def projects():
+    """ Projects Page """
+
+    return render_template("projects.html")
+
+
+@app.route("/contact")
+def contact():
+    """ Contact Page """
+
+    return render_template("contact.html")
