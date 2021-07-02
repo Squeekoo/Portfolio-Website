@@ -81,7 +81,7 @@ body {
   color: black;
 }
 
-.projects-links:hover {
+.projects-links a:hover {
   color: rgb(193, 66, 243);
   text-decoration: none;
   transition: 0.2s color;
