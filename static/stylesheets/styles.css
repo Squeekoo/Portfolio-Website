@@ -77,11 +77,11 @@ body {
   margin-top: 25px;
 }
 
-.projects-links {
+#projects-div > .card > .card-body > .card-text > .projects-links {
   color: black;
 }
 
-.projects-links a:hover {
+#projects-div > .card > .card-body > .card-text > .projects-links:hover {
   color: rgb(193, 66, 243);
   text-decoration: none;
   transition: 0.2s color;
