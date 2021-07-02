@@ -77,11 +77,11 @@ body {
   margin-top: 25px;
 }
 
-#projects-description > a {
+.projects-links {
   color: black;
 }
 
-#projects-description > a:hover {
+.projects-links:hover {
   color: rgb(193, 66, 243);
   text-decoration: none;
   transition: 0.2s color;
